@@ -8,5 +8,5 @@ def get_multiplied_digits(number):
     return first * get_multiplied_digits(int(str_number[1:]))
 
 
-result = get_multiplied_digits(4000052000060000)
+result = get_multiplied_digits(40203)
 print(result)
